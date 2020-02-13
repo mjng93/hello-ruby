@@ -11,6 +11,18 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 
+
+mine=["eggs","chips","spinach","banana","avocado","pork","yogurt"]
+yours=["yogurt","strawberries","ravioli","chicken","brussel sprouts"]
+
+our_list=mine+yours
+puts our_list.sort.uniq
+
+
+
+#b = [["student","sam"], ["student","george"], ["teacher","matz"]]
+#puts b.uniq { |s| s.last } # => [["student", "sam"], ["teacher", "matz"]]
+
 # HINTS
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
